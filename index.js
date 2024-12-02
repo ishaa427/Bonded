@@ -1,11 +1,11 @@
-// Simulating mentor data
+
 const mentors = [
-    { name: "Alice Johnson", major: "Computer Science", bio: "Passionate about coding and tech." },
-    { name: "Ben Lee", major: "Mechanical Engineering", bio: "Love designing and building things." },
-    { name: "Clara Smith", major: "Business Management", bio: "Excited to help students succeed." }
+    { name: "ISHA GUPTA", major: "Information Technology", bio: "Passionate about coding and tech." },
+    { name: "YASH VASHISHTA", major: "Computer Science", bio: "Love designing and building things." },
+    { name: "RUSHIL SAXENA", major: "Data Science", bio: "Excited to help students succeed." }
 ];
 
-// Function to display mentors
+
 function displayMentors() {
     const mentorList = document.getElementById("mentor-list");
     mentors.forEach(mentor => {
@@ -20,5 +20,5 @@ function displayMentors() {
     });
 }
 
-// Load mentors when the page loads
+
 document.addEventListener("DOMContentLoaded", displayMentors);
